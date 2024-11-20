@@ -39,6 +39,7 @@ const Introduction = () => {
                             Contacta conmigo
                         </a>
                     </div>
+                    <div className="mt-20"></div>
                 </div>
             </div>
         </div>
