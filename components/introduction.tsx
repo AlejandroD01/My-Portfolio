@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import ButtonContactaConmigo from "./button-contacta-conmigo";
 
 const Introduction = () => {
     return (
@@ -32,12 +33,7 @@ const Introduction = () => {
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                        
-                        <a href="https://t.me/AlejandroDMT98"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
-                            Contacta conmigo
-                        </a>
+                    <ButtonContactaConmigo/>
                     </div>
                     <div className="mt-20"></div>
                 </div>

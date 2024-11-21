@@ -1,4 +1,6 @@
 import { dataAboutPage } from "@/data";
+import ButtonDescargarPDF from "@/components/button-cv";
+
 
 const TimeLine = () => {
     return (
@@ -22,7 +24,8 @@ const TimeLine = () => {
                                 {/* <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-secondary  rounded-full">{data.date}</time> */}
                                 <div className="text-xl font-bold text-gray-400">{data.subtitle}</div>
                             </div>
-                            <div className="text-slate-400 max-w-md ">{data.description}</div>
+                            <div className="text-slate-400 max-w-md mb-3">{data.description}</div>
+                            <ButtonDescargarPDF pdf={data.pdf} />
                         </div>
                     ))}
                 </div>

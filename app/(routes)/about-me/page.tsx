@@ -7,6 +7,7 @@ import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
 const AboutMePage = () => {
+    
     return (
         <>
             <TransitionPage />

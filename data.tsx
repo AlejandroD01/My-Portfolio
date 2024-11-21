@@ -60,18 +60,22 @@ export const dataAboutPage = [
         title: "Especialista en Desarrollo Backend",
         subtitle: "Java, Spring Boot",
         description: "+6 años de experiencia programando para La Universidad de las Ciencias Informáticas",
+        pdf:"cv-backend-alejandro-d.pdf",
     },
     {
         id: 2,
         title: "Especialista en Desarrollo Frontend",
         subtitle: "React, Next js",
         description: "+3 años de experiencia trabajando freelancer",
+        pdf:"cv-frontend-alejandro-d.pdf",
+
     },
     {
         id: 3,
         title: "Especialistas en WordPress",
         subtitle: "",
         description: "+3 años de experiencia trabajando freelancer",
+        pdf:"cv-wordpress-alejandro-d.pdf",
 
     }
 ]
