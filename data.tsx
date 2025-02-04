@@ -67,7 +67,7 @@ export const dataAboutPage = [
         title: "Especialista en Desarrollo Frontend",
         subtitle: "React, Next js",
         description: "+3 años de experiencia trabajando freelancer",
-        pdf:"cv-frontend-alejandro-d.pdf",
+        pdf:"cv-frontend-alejandrod.pdf",
 
     },
     {
@@ -75,7 +75,7 @@ export const dataAboutPage = [
         title: "Especialistas en WordPress",
         subtitle: "",
         description: "+3 años de experiencia trabajando freelancer",
-        pdf:"cv-wordpress-alejandro-d.pdf",
+        pdf:"cv-wordpress-alejandrod.pdf",
 
     }
 ]
