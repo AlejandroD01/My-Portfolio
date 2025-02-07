@@ -83,21 +83,21 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 5,
+        endCounter: 7,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 8,
+        endCounter: 20,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 10,
+        endCounter: 35,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
