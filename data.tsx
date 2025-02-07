@@ -59,14 +59,14 @@ export const dataAboutPage = [
         id: 1,
         title: "Especialista en Desarrollo Backend",
         subtitle: "Java, Spring Boot",
-        description: "+6 años de experiencia programando para La Universidad de las Ciencias Informáticas",
+        description: "+7 años de experiencia programando para La Universidad de las Ciencias Informáticas",
         pdf:"cv-backend-alejandro-d.pdf",
     },
     {
         id: 2,
         title: "Especialista en Desarrollo Frontend",
         subtitle: "React, Next js",
-        description: "+3 años de experiencia trabajando freelancer",
+        description: "+5 años de experiencia programando para La UCI y trabajando freelancer",
         pdf:"cv-frontend-alejandrod.pdf",
 
     },
@@ -74,7 +74,7 @@ export const dataAboutPage = [
         id: 3,
         title: "Especialistas en WordPress",
         subtitle: "",
-        description: "+3 años de experiencia trabajando freelancer",
+        description: "+4 años de experiencia trabajando freelancer",
         pdf:"cv-wordpress-alejandrod.pdf",
 
     }
