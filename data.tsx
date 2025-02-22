@@ -136,6 +136,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "E-commerce web",
+        technology: "ReactJS",
         image: "/image-9.jpeg",
         urlGithub: "",
         urlDemo: "https://mifortunasr.com/",
@@ -143,6 +144,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "GESPRE",
+        technology: "ReactJS",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/AlejandroD01/GESPRE",
         urlDemo: "",
@@ -150,6 +152,7 @@ export const dataPortfolio = [
     {
         id: 3,
         title: "Estrategias Web",
+        technology: "ReactJS",
         image: "/image-6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
@@ -157,6 +160,7 @@ export const dataPortfolio = [
     {
         id: 4,
         title: "Ideas Creativas",
+        technology: "ReactJS",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
