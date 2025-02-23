@@ -29,14 +29,14 @@ const PortfolioPage = () => {
                     <fieldset className="flex justify-center space-x-4">
                         <legend className="sr-only">Select a technology</legend>
                         {technologies.map((tech) => (
-                            <label key={tech} className="rounded-lg p-0 transition-all hover:bg-blue-500 focus:bg-slate-100 active:bg-blue-500">
+                            <label key={tech} className="rounded-lg p-0 ">
                                 <button
                                     name="technology"
                                     value={tech}
                                     onClick={(e) => setSelectedTechnology(e.currentTarget.value)} // Usa onClick en lugar de onChange
-                                    className={`px-6 py-2 rounded-lg transition-all duration-300 ${selectedTechnology === tech
-                                            ? 'bg-blue-500 text-white shadow-lg transform scale-105'
-                                            : 'bg-gray-200 text-gray-700 hover:bg-gray-300 hover:text-gray-800'
+                                    className={`px-3 py-2  transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary ${selectedTechnology === tech
+                                            ? 'bg-secondary text-white shadow-lg transform scale-105'
+                                            : ' hover:bg-blue-400 hover:text-gray-800'
                                         }`}
                                 >
                                     {tech}
