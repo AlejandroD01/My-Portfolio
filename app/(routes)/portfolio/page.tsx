@@ -5,7 +5,7 @@ import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import PortfolioBox from "@/components/portfolio-box";
 import CircleImage from "@/components/circle-image";
-
+import { motion, AnimatePresence } from "framer-motion"; // Importa los componentes
 import { useState } from "react"
 
 
@@ -35,8 +35,8 @@ const PortfolioPage = () => {
                                     value={tech}
                                     onClick={(e) => setSelectedTechnology(e.currentTarget.value)} // Usa onClick en lugar de onChange
                                     className={`px-3 py-2  transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary ${selectedTechnology === tech
-                                            ? 'bg-secondary text-white shadow-lg transform scale-105'
-                                            : ' hover:bg-blue-400 hover:text-gray-800'
+                                        ? 'bg-secondary text-white shadow-lg transform scale-105'
+                                        : ' hover:bg-blue-400 hover:text-gray-800'
                                         }`}
                                 >
                                     {tech}
@@ -45,13 +45,23 @@ const PortfolioPage = () => {
                         ))}
                     </fieldset>
                 </div>
-
                 <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-4">
-                    {dataPortfolio
-                        .filter((data) => data.technology === selectedTechnology)
-                        .map((data) => (
-                            <PortfolioBox key={data.id} data={data} />
-                        ))}
+                    <AnimatePresence mode="wait"> {/* Envuelve el bloque */}
+                        {dataPortfolio
+                            .filter((data) => data.technology === selectedTechnology)
+                            .map((data) => (
+                                <motion.div
+                                    key={data.id}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: -20 }}
+                                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                                    layout // Para animar cambios de posición
+                                >
+                                    <PortfolioBox data={data} />
+                                </motion.div>
+                            ))}
+                    </AnimatePresence>
                 </div>
             </div>
 
