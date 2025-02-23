@@ -144,7 +144,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "GESPRE",
-        technology: "ReactJS",
+        technology: "Spring Boot",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/AlejandroD01/GESPRE",
         urlDemo: "",
@@ -152,7 +152,7 @@ export const dataPortfolio = [
     {
         id: 3,
         title: "Estrategias Web",
-        technology: "ReactJS",
+        technology: "WordPress",
         image: "/image-6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
@@ -160,7 +160,7 @@ export const dataPortfolio = [
     {
         id: 4,
         title: "Ideas Creativas",
-        technology: "ReactJS",
+        technology: "WordPress",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
