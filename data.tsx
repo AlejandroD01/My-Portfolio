@@ -1,5 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound , Linkedin , Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
-import { PiTelegramLogoThin, PiGithubLogoLight } from "react-icons/pi";
+import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight } from "react-icons/pi";
 
 export const socialNetworks = [
     {
@@ -16,6 +16,11 @@ export const socialNetworks = [
         id: 3,
         logo: <PiGithubLogoLight size={30} strokeWidth={1} />,
         src: "https://github.com/AlejandroD01",
+    },
+    {
+        id: 4,
+        logo: <PiWhatsappLogoLight size={30} strokeWidth={1} />,
+        src: "https://wa.me/5358679212",
     },
  
 ];
