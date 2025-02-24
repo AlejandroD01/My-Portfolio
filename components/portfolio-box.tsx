@@ -38,8 +38,8 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 {urlDemo ? (
                     <Link href={urlDemo}
                         target="_blank"
-                        className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80" >
-                        Live demo </Link>
+                        className="p-2 px-4 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80" >
+                        Link </Link>
                 ) : null}
             </div>
         </div>

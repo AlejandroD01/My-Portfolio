@@ -12,8 +12,8 @@ import { useState } from "react"
 
 const PortfolioPage = () => {
 
-    const [selectedTechnology, setSelectedTechnology] = useState("ReactJS")
-    const technologies = ["ReactJS", "Spring Boot", "WordPress"]
+    const [selectedTechnology, setSelectedTechnology] = useState("WordPress")
+    const technologies = ["WordPress","ReactJS","Spring Boot"]
 
 
     return (
