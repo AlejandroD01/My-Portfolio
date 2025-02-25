@@ -20,7 +20,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     const { id, title, image, urlDemo, urlGithub, description } = data
     const [isFlipped, setIsFlipped] = useState(false);
 
-    const handleFlip = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const handleFlip = (e: React.MouseEvent) => {
         e.stopPropagation(); // Evitar propagación del evento
         setIsFlipped((prev) => !prev);
     };
@@ -40,6 +40,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         <div
           key={id}
           className="relative w-[200px] h-[300px] cursor-pointer"
+          onClick={handleFlip}
           style={{ perspective: 1000 }}
         >
           <motion.div

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: [
@@ -21,7 +22,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [function ({ addUtilities }) {
+  plugins: [plugin(function ({ addUtilities }) {
     addUtilities({
       '.backface-hidden': {
         backfaceVisibility: 'hidden',
@@ -30,6 +31,6 @@ const config: Config = {
         transformStyle: 'preserve-3d',
       },
     });
-  },],
+  }),],
 };
 export default config;
