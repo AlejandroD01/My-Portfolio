@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound , Linkedin , Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
 
 export const socialNetworks = [
@@ -27,7 +27,7 @@ export const socialNetworks = [
         logo: <PiPaperPlane size={30} strokeWidth={1} />,
         src: "mailto:alejandrodavidmonagas@gmail.com",
     },
- 
+
 ];
 
 
@@ -70,14 +70,14 @@ export const dataAboutPage = [
         title: "Especialista en Desarrollo Backend",
         subtitle: "Java, Spring Boot",
         description: "+7 años de experiencia programando para La Universidad de las Ciencias Informáticas",
-        pdf:"cv-backend-alejandro-d.pdf",
+        pdf: "cv-backend-alejandro-d.pdf",
     },
     {
         id: 2,
         title: "Especialista en Desarrollo Frontend",
         subtitle: "React, Next js",
         description: "+5 años de experiencia programando para La UCI y trabajando freelancer",
-        pdf:"cv-frontend-alejandrod.pdf",
+        pdf: "cv-frontend-alejandrod.pdf",
 
     },
     {
@@ -85,7 +85,7 @@ export const dataAboutPage = [
         title: "Especialistas en WordPress",
         subtitle: "",
         description: "+4 años de experiencia trabajando freelancer",
-        pdf:"cv-wordpress-alejandrod.pdf",
+        pdf: "cv-wordpress-alejandrod.pdf",
 
     }
 ]
@@ -150,16 +150,16 @@ export const dataPortfolio = [
         image: "/geotec.webp",
         urlGithub: "",
         urlDemo: "https://geotechve.com/",
-        description: "LANDING PAGE que ofrece fertilizantes nanoquelatados avanzados para mejorar el crecimiento y rentabilidad de los cultivos.",
+        description: "LANDING PAGE sobre fertilizantes nanoquelatados avanzados para mejorar el crecimiento y rentabilidad de los cultivos.",
         herramientas: (
             <>
-              <span>
-                <strong>Tema:</strong> Astra
-              </span>
-              <br />
-              <span> <strong>Plugins:</strong>Elementor, WPForms, Yoast SEO, Formidable, Tutor Pro, Tutor, Betterdocs</span>
+                <span>
+                    <strong>Tema:</strong> Astra
+                </span>
+                <br />
+                <span> <strong>Plugins:</strong> Elementor, WPForms, Yoast SEO, Formidable, Tutor Pro, Tutor, Betterdocs</span>
             </>
-          ),
+        ),
     },
     {
         id: 2,
@@ -170,7 +170,7 @@ export const dataPortfolio = [
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         urlDemo: "",
         herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
-    },  
+    },
     {
         id: 3,
         title: "Microservicios",
@@ -180,7 +180,7 @@ export const dataPortfolio = [
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
-    },  
+    },
     {
         id: 4,
         title: "Udemy Spring Security",
@@ -190,7 +190,7 @@ export const dataPortfolio = [
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
-    },  
+    },
     {
         id: 5,
         title: "Spring Cloud",
@@ -200,26 +200,46 @@ export const dataPortfolio = [
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
-    },  
+    },
     {
         id: 6,
-        title: "Tienda Online XpresSolutions",
+        title: "XpresSolutions",
         technology: "WordPress",
         image: "/xpressolution.webp",
         urlGithub: "",
         urlDemo: "https://expresssolutionscuba.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: " TIENDA ONLINE de Cuba que ofrece una amplia variedad de productos de tecnología y moda. cuenta con diversas categorías de productos. ofrece servicios premium, como la compra en Amazon y Shein.",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tema:</strong> Woodmart
+                </span>
+                <br />
+                <br />
+                <span> <strong>Plugins:</strong>Elementor Website Builder, Elementor pro, Essential addons for elementor lite, Affiliate WP, Woocommerce, WooCommerce Square, Fluentform, Estimate delivery date for woocommerce pro, Yoast SEO, Wc Frontend Manager, Woo Wallet, Elementor</span>
+            </>
+        ),
     },
     {
         id: 7,
-        title: "Landing Page Studio Tattoo",
+        title: "Studio Tattoo",
         technology: "WordPress",
         image: "/tatto.webp",
         urlGithub: "",
         urlDemo: "https://thelcmtattoos.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: "PORFOLIO que se esplecializa en la creación de tatuajes personalizados y piercings, ofreciendo un enfoque creativo y personalizado.",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tema:</strong> Astra 
+                </span>
+                <br />
+                <br />
+                <span> <strong>Plugins:</strong>Button Generation, Translatepress Multilingual, Bookly Responsive Appointment Booking Tool, Bookly Addon Pro, Omnisend, Ultimate Addons For Gutenberg, Google Analytics For Wordpress </span>
+            </>
+        ),
     },
     {
         id: 8,
@@ -228,36 +248,38 @@ export const dataPortfolio = [
         image: "/image-9.webp",
         urlGithub: "",
         urlDemo: "https://mifortunasr.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: "LANDING PAGE dedicada a la distribución y comercialización de productos para la nutrición y protección vegetal, así como a servicios de apoyo a la agricultura en Cuba.",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tema:</strong> Astra
+                </span>
+                <br />
+                <br />
+                <span> <strong>Plugins:</strong> Litespeed Cache, Contact Form 7, Ultimate Addons For Gutenberg, Woocommerce, Essential Blocks, FiboSearch – Ajax Search for WooCommerce</span>
+            </>
+        ),
     },
     {
         id: 9,
-        title: "ACuba",
-        technology: "WordPress",
-        image: "/Acuba.webp",
-        urlGithub: "",
-        urlDemo: "https://acuba.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
-    },
-    {
-        id: 10,
         title: "Ecotec",
         technology: "WordPress",
         image: "/ecotec.webp",
         urlGithub: "",
         urlDemo: "https://ecotec-cuba.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "LANDING PAGE que se dedica a la optimización de la presencia en línea mediante estrategias avanzadas de SEO. Ofrecen servicios de desarrollo web, marketing digital y soluciones tecnológicas.",
         herramientas: (
             <>
-              <span>
-                <strong>Theme Name: Astra</strong>
-              </span>
-              <br />
-              <span>Plugins: Elementor, WPForms, Yoast SEO, Formidable, Tutor Pro, Tutor, Betterdocs</span>
+                <br />
+                <span>
+                    <strong>Tema:</strong> RT-Theme 19 
+                </span>
+                <br />
+                <br />
+                <span> <strong>Plugins:</strong> Essential Grid, Contact Form 7, Js_composer, Woocommerce, Revslider, Slider Revolution Responsive WordPress Plugin</span>
             </>
-          ),
+        ),
     },
 
 ];
