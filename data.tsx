@@ -1,5 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound , Linkedin , Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
-import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight } from "react-icons/pi";
+import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
 
 export const socialNetworks = [
     {
@@ -21,6 +21,11 @@ export const socialNetworks = [
         id: 4,
         logo: <PiWhatsappLogoLight size={30} strokeWidth={1} />,
         src: "https://wa.me/5358679212",
+    },
+    {
+        id: 5,
+        logo: <PiPaperPlane size={30} strokeWidth={1} />,
+        src: "mailto:alejandrodavidmonagas@gmail.com",
     },
  
 ];
@@ -145,7 +150,16 @@ export const dataPortfolio = [
         image: "/geotec.webp",
         urlGithub: "",
         urlDemo: "https://geotechve.com/",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "LANDING PAGE que ofrece fertilizantes nanoquelatados avanzados para mejorar el crecimiento y rentabilidad de los cultivos.",
+        herramientas: (
+            <>
+              <span>
+                <strong>Tema:</strong> Astra
+              </span>
+              <br />
+              <span> <strong>Plugins:</strong>Elementor, WPForms, Yoast SEO, Formidable, Tutor Pro, Tutor, Betterdocs</span>
+            </>
+          ),
     },
     {
         id: 2,
@@ -155,6 +169,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/GESPRE",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         urlDemo: "",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },  
     {
         id: 3,
@@ -164,6 +179,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/microservicios-tutorial.git",
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },  
     {
         id: 4,
@@ -173,6 +189,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/Nin2ja.git",
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },  
     {
         id: 5,
@@ -182,6 +199,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/service-configuration.git",
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },  
     {
         id: 6,
@@ -191,6 +209,7 @@ export const dataPortfolio = [
         urlGithub: "",
         urlDemo: "https://expresssolutionscuba.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },
     {
         id: 7,
@@ -200,6 +219,7 @@ export const dataPortfolio = [
         urlGithub: "",
         urlDemo: "https://thelcmtattoos.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },
     {
         id: 8,
@@ -209,6 +229,7 @@ export const dataPortfolio = [
         urlGithub: "",
         urlDemo: "https://mifortunasr.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },
     {
         id: 9,
@@ -218,15 +239,25 @@ export const dataPortfolio = [
         urlGithub: "",
         urlDemo: "https://acuba.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
     },
     {
         id: 10,
         title: "Ecotec",
         technology: "WordPress",
         image: "/ecotec.webp",
-        urlGithub: "asd",
+        urlGithub: "",
         urlDemo: "https://ecotec-cuba.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        herramientas: (
+            <>
+              <span>
+                <strong>Theme Name: Astra</strong>
+              </span>
+              <br />
+              <span>Plugins: Elementor, WPForms, Yoast SEO, Formidable, Tutor Pro, Tutor, Betterdocs</span>
+            </>
+          ),
     },
 
 ];
