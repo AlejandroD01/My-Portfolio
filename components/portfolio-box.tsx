@@ -20,7 +20,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     const { id, title, image, urlDemo, urlGithub, description } = data
     const [isFlipped, setIsFlipped] = useState(false);
 
-    const handleFlip = (e) => {
+    const handleFlip = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.stopPropagation(); // Evitar propagación del evento
         setIsFlipped((prev) => !prev);
     };
@@ -40,7 +40,6 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         <div
           key={id}
           className="relative w-[200px] h-[300px] cursor-pointer"
-          onClick={handleFlip}
           style={{ perspective: 1000 }}
         >
           <motion.div
@@ -52,7 +51,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
           >
             {/* Frente de la tarjeta */}
             <motion.div
-              className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl bg-white"
+              className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl "
               style={{ backgroundColor: 'rgba(31, 25, 52)', backfaceVisibility: 'hidden' }}
             >
               <h3 className="mb-4 text-xl">{title}</h3>
@@ -89,8 +88,8 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     
             {/* Reverso de la tarjeta */}
             <motion.div
-              className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl bg-white"
-              style={{ backgroundColor: 'rgb(31, 25, 52)', transform: 'rotateY(180deg)', backfaceVisibility: 'hidden' }}
+              className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl "
+              style={{ backgroundColor: 'rgba(31, 25, 52)', transform: 'rotateY(180deg)', backfaceVisibility: 'hidden' }}
             >
               <h3 className="mb-4 text-xl">{title}</h3>
               <p className="text-gray-300">{description}</p>
