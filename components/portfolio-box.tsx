@@ -40,7 +40,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
             key={id}
-            className="relative w-[300px] h-[300px] cursor-pointer rounded-xl"
+            className="relative w-[300px] h-[300px] cursor-pointer rounded-xl "
             onClick={handleFlip}
             style={{ perspective: 1000 }}
         >
@@ -53,8 +53,10 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             >
                 {/* Frente de la tarjeta */}
                 <motion.div
-                    className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl "
+                    className="absolute w-full h-full backface-hidden p-4  rounded-xl transition-all duration-300 hover:border-secondary border-2"
                     style={{ backgroundColor: 'rgba(31, 25, 52)', backfaceVisibility: 'hidden' }}
+                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 30, 52)'}
+                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 25, 52)'}
                 >
                     <h3 className="mb-4 text-xl">{title}</h3>
                     <Image
@@ -90,8 +92,10 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
 
                 {/* Reverso de la tarjeta */}
                 <motion.div
-                    className="absolute w-full h-full backface-hidden p-4 border border-teal-50 rounded-xl overflow-y-auto break-words"
+                    className="absolute w-full h-full backface-hidden p-4  rounded-xl overflow-y-auto break-words transition-all duration-300 hover:border-secondary border-2"
                     style={{ backgroundColor: 'rgba(31, 25, 52)', transform: 'rotateY(180deg)', backfaceVisibility: 'hidden', maxHeight: '100%' }}
+                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 30, 52)'}
+                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 25, 52)'}
                 >
                     <h3 className="mb-4 text-xl">{title}</h3>
                     <p className="text-gray-300">{description}</p>
