@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      rotate: {
+        '180': '180deg',
+      },
       colors: {
         secondary: "#00BFFF",
         darkBg: "#131424",
@@ -18,6 +21,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [function ({ addUtilities }) {
+    addUtilities({
+      '.backface-hidden': {
+        backfaceVisibility: 'hidden',
+      },
+      '.preserve-3d': {
+        transformStyle: 'preserve-3d',
+      },
+    });
+  },],
 };
 export default config;

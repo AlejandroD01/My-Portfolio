@@ -145,6 +145,7 @@ export const dataPortfolio = [
         image: "/geotec.webp",
         urlGithub: "",
         urlDemo: "https://geotechve.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
         id: 2,
@@ -152,6 +153,7 @@ export const dataPortfolio = [
         technology: "Spring Boot",
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/GESPRE",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         urlDemo: "",
     },  
     {
@@ -161,6 +163,7 @@ export const dataPortfolio = [
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/microservicios-tutorial.git",
         urlDemo: "",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },  
     {
         id: 4,
@@ -169,6 +172,7 @@ export const dataPortfolio = [
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/Nin2ja.git",
         urlDemo: "",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },  
     {
         id: 5,
@@ -177,6 +181,7 @@ export const dataPortfolio = [
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/service-configuration.git",
         urlDemo: "",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },  
     {
         id: 6,
@@ -185,6 +190,7 @@ export const dataPortfolio = [
         image: "/xpressolution.webp",
         urlGithub: "",
         urlDemo: "https://expresssolutionscuba.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
         id: 7,
@@ -193,6 +199,7 @@ export const dataPortfolio = [
         image: "/tatto.webp",
         urlGithub: "",
         urlDemo: "https://thelcmtattoos.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
         id: 8,
@@ -201,6 +208,7 @@ export const dataPortfolio = [
         image: "/image-9.webp",
         urlGithub: "",
         urlDemo: "https://mifortunasr.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
         id: 9,
@@ -209,6 +217,7 @@ export const dataPortfolio = [
         image: "/Acuba.webp",
         urlGithub: "",
         urlDemo: "https://acuba.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
         id: 10,
@@ -217,6 +226,7 @@ export const dataPortfolio = [
         image: "/ecotec.webp",
         urlGithub: "",
         urlDemo: "https://ecotec-cuba.com/",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
 
 ];
