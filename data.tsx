@@ -224,7 +224,7 @@ export const dataPortfolio = [
         title: "Ecotec",
         technology: "WordPress",
         image: "/ecotec.webp",
-        urlGithub: "",
+        urlGithub: "asd",
         urlDemo: "https://ecotec-cuba.com/",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },

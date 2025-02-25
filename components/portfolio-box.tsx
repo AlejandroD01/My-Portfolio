@@ -39,7 +39,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
           key={id}
-          className="relative w-[200px] h-[300px] cursor-pointer"
+          className="relative w-[300px] h-[300px] cursor-pointer rounded-xl"
           onClick={handleFlip}
           style={{ perspective: 1000 }}
         >
