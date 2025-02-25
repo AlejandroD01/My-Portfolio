@@ -167,9 +167,18 @@ export const dataPortfolio = [
         technology: "Spring Boot",
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/GESPRE",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
         urlDemo: "",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: "Sistema para la gestión de la prenómina del Departamento de Tecnología",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Spring Boot 2.6.4, java 8</strong>
+                </span>
+                <br />
+                <span> <strong>Dependencias:</strong> JPA, Postgresql, Spring Security, Formidable, Jjwt, Modelmapper, Spring Validation</span>
+            </>
+        ),
     },
     {
         id: 3,
@@ -178,8 +187,17 @@ export const dataPortfolio = [
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/microservicios-tutorial.git",
         urlDemo: "",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: "Tutorial de microservicios con Spring Boot y Netflix Eureka",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Spring Boot 2.5.4, java 17</strong>
+                </span>
+                <br />
+                <span> <strong>Dependencias:</strong>Spring Data JPA, h2database, spring-cloud:2020.0.3, sleuth-zipkin, Starter-netflix-eureka-client, Modelmapper, starter-bootstrap, starter-config</span>
+            </>
+        ),
     },
     {
         id: 4,
@@ -189,7 +207,16 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/Nin2ja.git",
         urlDemo: "",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Spring Boot  2.7.9, java 8</strong>
+                </span>
+                <br />
+                <span> <strong>Dependencias:</strong> JPA, Postgresql, Spring Security, thymeleaf, Hibernate , Modelmapper, css, html</span>
+            </>
+        ),
     },
     {
         id: 5,
@@ -198,8 +225,15 @@ export const dataPortfolio = [
         image: "/java-code.jpg",
         urlGithub: "https://github.com/AlejandroD01/service-configuration.git",
         urlDemo: "",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-        herramientas: "Theme Name:	Astra ,Plugins: Elementor, WPForms, Yoast SEO,Formidable, Tutor Pro, Tutor, Betterdocs ",
+        description: "Configuración del Microservico en Spring Cloud",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Spring Boot, java 8</strong>
+                </span>
+            </>
+        ),
     },
     {
         id: 6,
@@ -233,7 +267,7 @@ export const dataPortfolio = [
             <>
                 <br />
                 <span>
-                    <strong>Tema:</strong> Astra 
+                    <strong>Tema:</strong> Astra
                 </span>
                 <br />
                 <br />
@@ -273,7 +307,7 @@ export const dataPortfolio = [
             <>
                 <br />
                 <span>
-                    <strong>Tema:</strong> RT-Theme 19 
+                    <strong>Tema:</strong> RT-Theme 19
                 </span>
                 <br />
                 <br />
