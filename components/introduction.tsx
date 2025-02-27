@@ -31,9 +31,9 @@ const Introduction = () => {
                         Soy Ingeniero Informático Full Stack, experto en integrar diseño y funcionalidad para desarrollar aplicaciones que ofrecen experiencias digitales sofisticadas, intuitivas y accesibles.
                     </p>
 
-                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
+                    <div className=" items-center justify-center gap-3 hidden md:block">
                        
-                    <ButtonContactaConmigo/>
+                    <ButtonContactaConmigo />
                     </div>
                     <div className="mt-20"></div>
                 </div>
