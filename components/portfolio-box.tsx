@@ -93,9 +93,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 {/* Reverso de la tarjeta */}
                 <motion.div
                     className="absolute w-full h-full backface-hidden p-4  rounded-xl overflow-y-auto break-words transition-all duration-300 hover:border-secondary border-2"
-                    style={{ backgroundColor: 'rgba(31, 25, 52)', transform: 'rotateY(180deg)', backfaceVisibility: 'hidden', maxHeight: '100%' }}
-                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 30, 52)'}
-                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 25, 52)'}
+                    style={{ backgroundColor: 'rgba(31, 30, 52)', transform: 'rotateY(180deg)', backfaceVisibility: 'hidden', maxHeight: '100%' }}
                 >
                     <h3 className="mb-4 text-xl">{title}</h3>
                     <p className="text-gray-300">{description}</p>

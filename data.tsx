@@ -1,5 +1,7 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
+import { FaReact } from 'react-icons/fa';
+import { SiNextdotjs, SiHtml5, SiCss3, SiTypescript, SiTailwindcss, SiVercel, SiGooglecloud } from 'react-icons/si';
 
 export const socialNetworks = [
     {
@@ -314,6 +316,52 @@ export const dataPortfolio = [
                 <span> <strong>Plugins:</strong> Essential Grid, Contact Form 7, Js_composer, Woocommerce, Revslider, Slider Revolution Responsive WordPress Plugin</span>
             </>
         ),
+    },
+
+    // React
+    {
+        id: 10,
+        title: "Romantic AI",
+        technology: "ReactJS",
+        image: "/romanticAI.webp",
+        urlGithub: "https://github.com/AlejandroD01/romantic-ai.git",
+        urlDemo: "https://romantic-ai.vercel.app/",
+        description: "Plataforma en línea diseñada para ofrecer experiencias románticas y divertidas a través de la inteligencia artificial.",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tecnologías:</strong>
+                </span>
+                <span className="grid grid-cols-2 gap-2 mt-2">
+                    <span className="flex items-center gap-1 text-sm">
+                        <FaReact color="#61DAFB" className="w-5 h-5 m-auto" /> React.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiNextdotjs color="#000000" className="w-5 h-5 m-auto" /> Next.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTypescript color="#3178C6" className="w-5 h-5 m-auto" /> TypeScript
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTailwindcss color="#06B6D4" className="w-5 h-5 m-auto" /> Tailwind CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiCss3 color="#1572B6" className="w-5 h-5 m-auto" /> CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiHtml5 color="#E34F26" className="w-5 h-5 m-auto" /> HTML
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiGooglecloud color="#1572B6"  className="w-5 h-5 m-auto"/> AI SDK/Google
+                    </span>
+                </span>
+            </>
+        ),
+
     },
 
 ];
