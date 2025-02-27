@@ -46,7 +46,7 @@ const PortfolioPage = () => {
                     </fieldset>
                 </div>
                 <div className="relative justify-center z-10 grid max-w-5xl gap-6 mx-auto mt-4 mb-16 md:grid-cols-3">
-                    <AnimatePresence mode="wait"> {/* Envuelve el bloque */}
+                    <AnimatePresence > {/* Envuelve el bloque */}
                         {dataPortfolio
                             .filter((data) => data.technology === selectedTechnology)
                             .map((data) => (
