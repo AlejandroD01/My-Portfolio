@@ -1,7 +1,7 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
 import { FaReact } from 'react-icons/fa';
-import { SiNextdotjs, SiHtml5, SiCss3, SiTypescript, SiTailwindcss, SiVercel, SiGooglecloud } from 'react-icons/si';
+import { SiNextdotjs, SiHtml5, SiCss3, SiTypescript, SiTailwindcss, SiVercel, SiGooglecloud, SiRadixui } from 'react-icons/si';
 
 export const socialNetworks = [
     {
@@ -357,6 +357,44 @@ export const dataPortfolio = [
                     </span>
                     <span className="flex items-center gap-1 text-sm">
                         <SiGooglecloud color="#1572B6"  className="w-5 h-5 m-auto"/> AI SDK/Google
+                    </span>
+                </span>
+            </>
+        ),
+
+    },
+    {
+        id: 11,
+        title: "QR Code Generator",
+        technology: "ReactJS",
+        image: "/qr-generator.webp",
+        urlGithub: "https://github.com/AlejandroD01/qr-code-generator.git",
+        urlDemo: "https://qr-code-generator-alejandro-ds-projects.vercel.app/",
+        description: "El sitio QR Code Generator es una herramienta en línea diseñada para crear, personalizar y compartir códigos QR de manera rápida y sencilla.",
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tecnologías:</strong>
+                </span>
+                <span className="grid grid-cols-2 gap-2 mt-2">
+                    <span className="flex items-center gap-1 text-sm">
+                        <FaReact color="#61DAFB" className="w-5 h-5 m-auto" /> React.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiNextdotjs color="#000000" className="w-5 h-5 m-auto" /> Next.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTypescript color="#3178C6" className="w-5 h-5 m-auto" /> TypeScript
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTailwindcss color="#06B6D4" className="w-5 h-5 m-auto" /> Tailwind CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiRadixui color="#1572B6"  className="w-5 h-5 m-auto"/>Radix UI
                     </span>
                 </span>
             </>
