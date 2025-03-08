@@ -3,6 +3,7 @@
 import { socialNetworks } from "@/data";
 import Link from "next/link";
 import { MotionTransition } from "./transition-component";
+import Image from "next/image";
 
 const Header = () => {
     return (
@@ -10,7 +11,14 @@ const Header = () => {
             <header>
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href='/'>
-                        <h1 className="my-3 text-4xl font-bold text-center md:text-left">
+                        <h1 className="my-3 text-4xl font-bold w-full justify-center text-center flex items-center gap-1 md:gap-3">
+                            <Image
+                                src="/calabera.png"
+                                alt="Logo calavera"
+                                width={40}
+                                height={40}
+                                className="w-9 h-9 md:w-9 md:h-9"
+                            />
                             Alejandro
                             <span className="text-secondary">D</span>
                         </h1>
