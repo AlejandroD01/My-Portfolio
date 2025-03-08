@@ -17,7 +17,7 @@ const Header = () => {
                                 alt="Logo calavera"
                                 width={40}
                                 height={40}
-                                className="w-9 h-9 md:w-9 md:h-9"
+                                className="w-10 h-10 md:w-12 md:h-12"
                             />
                             Alejandro
                             <span className="text-secondary">D</span>
