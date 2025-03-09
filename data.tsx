@@ -370,7 +370,7 @@ export const dataPortfolio = [
         image: "/qr-generator.webp",
         urlGithub: "https://github.com/AlejandroD01/qr-code-generator.git",
         urlDemo: "https://qr-code-generator-alejandro-ds-projects.vercel.app/",
-        description: "El sitio Rock Paper Scissors es una aplicación interactiva basada en la versión extendida del clásico juego, incorporando las opciones de Lagarto y Spock. Con una interfaz sencilla y funcional, permite a los usuarios disfrutar de partidas rápidas y entretenidas.",
+        description: "El sitio QR Code Generator es una herramienta en línea diseñada para crear, personalizar y compartir códigos QR de manera rápida y sencilla.",
         herramientas: (
             <>
                 <br />
@@ -408,7 +408,8 @@ export const dataPortfolio = [
         image: "/rock-paper-scissor.webp",
         urlGithub: "https://github.com/AlejandroD01/rock-paper-scissors.git",
         urlDemo: "https://rock-paper-scissors-alejandro-ds-projects.vercel.app/",
-        description: "El sitio QR Code Generator es una herramienta en línea diseñada para crear, personalizar y compartir códigos QR de manera rápida y sencilla.",
+        description: "El sitio Rock Paper Scissors es una aplicación interactiva basada en la versión extendida del clásico juego, incorporando las opciones de Lagarto y Spock. Con una interfaz sencilla y funcional, permite a los usuarios disfrutar de partidas rápidas y entretenidas.",
+       
         herramientas: (
             <>
                 <br />
