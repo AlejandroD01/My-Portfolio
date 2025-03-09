@@ -59,13 +59,15 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(31, 25, 52)'}
                 >
                     <h3 className="mb-4 text-xl">{title}</h3>
-                    <Image
-                        src={image}
-                        alt="Image"
-                        width={200}
-                        height={200}
-                        className="w-full h-auto rounded-2xl"
-                    />
+                    <div className="w-[250px] h-[150px] overflow-hidden rounded-2xl">
+                        <Image
+                            src={image}
+                            alt="Image"
+                            width={200}
+                            height={200}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
 
                     <div className="flex gap-5 mt-5">
                         {urlGithub && (
