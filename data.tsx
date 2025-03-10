@@ -432,9 +432,6 @@ export const dataPortfolio = [
                     <span className="flex items-center gap-1 text-sm">
                         <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
                     </span>
-                    <span className="flex items-center gap-1 text-sm">
-                        <SiRadixui color="#1572B6"  className="w-5 h-5 m-auto"/>Radix UI
-                    </span>
                 </span>
             </>
         ),
