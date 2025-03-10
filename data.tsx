@@ -403,7 +403,7 @@ export const dataPortfolio = [
     },
     {
         id: 12,
-        title: "Rock,Paper,Scissors,Lizard,Spock",
+        title: "Rock,Paper,Scissors v2",
         technology: "ReactJS",
         image: "/rock-paper-scissor.webp",
         urlGithub: "https://github.com/AlejandroD01/rock-paper-scissors.git",
