@@ -356,7 +356,7 @@ export const dataPortfolio = [
                         <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
                     </span>
                     <span className="flex items-center gap-1 text-sm">
-                        <SiGooglecloud color="#1572B6"  className="w-5 h-5 m-auto"/> AI SDK/Google
+                        <SiGooglecloud color="#1572B6" className="w-5 h-5 m-auto" /> AI SDK/Google
                     </span>
                 </span>
             </>
@@ -394,7 +394,7 @@ export const dataPortfolio = [
                         <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
                     </span>
                     <span className="flex items-center gap-1 text-sm">
-                        <SiRadixui color="#1572B6"  className="w-5 h-5 m-auto"/>Radix UI
+                        <SiRadixui color="#1572B6" className="w-5 h-5 m-auto" />Radix UI
                     </span>
                 </span>
             </>
@@ -409,7 +409,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/rock-paper-scissors.git",
         urlDemo: "https://rock-paper-scissors-alejandro-ds-projects.vercel.app/",
         description: "El sitio Rock Paper Scissors es una aplicación interactiva basada en la versión extendida del clásico juego, incorporando las opciones de Lagarto y Spock. Con una interfaz sencilla y funcional, permite a los usuarios disfrutar de partidas rápidas y entretenidas.",
-       
+
         herramientas: (
             <>
                 <br />
@@ -431,6 +431,9 @@ export const dataPortfolio = [
                     </span>
                     <span className="flex items-center gap-1 text-sm">
                         <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiRadixui color="#1572B6" className="w-5 h-5 m-auto" />Radix UI
                     </span>
                 </span>
             </>
@@ -445,7 +448,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/tic-tac-toe.git",
         urlDemo: "https://tic-tac-toe-alejandro-ds-projects.vercel.app/",
         description: "El sitio Tic Tac Toe es una aplicación interactiva que permite a los usuarios jugar al clásico juego de Tres en Raya. Con una interfaz limpia y funcional, ofrece una experiencia sencilla y entretenida para disfrutar partidas rápidas en línea.",
-       
+
         herramientas: (
             <>
                 <br />
@@ -468,9 +471,7 @@ export const dataPortfolio = [
                     <span className="flex items-center gap-1 text-sm">
                         <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
                     </span>
-                    <span className="flex items-center gap-1 text-sm">
-                        <SiRadixui color="#1572B6"  className="w-5 h-5 m-auto"/>Radix UI
-                    </span>
+
                 </span>
             </>
         ),
