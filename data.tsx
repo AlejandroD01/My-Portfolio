@@ -403,12 +403,51 @@ export const dataPortfolio = [
     },
     {
         id: 12,
-        title: "Rock,Paper,Scissors,Lizard",
+        title: "Rock,Paper,Scissors,Lizard,Spock",
         technology: "ReactJS",
         image: "/rock-paper-scissor.webp",
         urlGithub: "https://github.com/AlejandroD01/rock-paper-scissors.git",
         urlDemo: "https://rock-paper-scissors-alejandro-ds-projects.vercel.app/",
         description: "El sitio Rock Paper Scissors es una aplicación interactiva basada en la versión extendida del clásico juego, incorporando las opciones de Lagarto y Spock. Con una interfaz sencilla y funcional, permite a los usuarios disfrutar de partidas rápidas y entretenidas.",
+       
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tecnologías:</strong>
+                </span>
+                <span className="grid grid-cols-2 gap-2 mt-2">
+                    <span className="flex items-center gap-1 text-sm">
+                        <FaReact color="#61DAFB" className="w-5 h-5 m-auto" /> React.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiNextdotjs color="#000000" className="w-5 h-5 m-auto" /> Next.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTypescript color="#3178C6" className="w-5 h-5 m-auto" /> TypeScript
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTailwindcss color="#06B6D4" className="w-5 h-5 m-auto" /> Tailwind CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiRadixui color="#1572B6"  className="w-5 h-5 m-auto"/>Radix UI
+                    </span>
+                </span>
+            </>
+        ),
+
+    },
+    {
+        id: 13,
+        title: "Tic tac toe",
+        technology: "ReactJS",
+        image: "/tictactoe.webp",
+        urlGithub: "https://github.com/AlejandroD01/tic-tac-toe.git",
+        urlDemo: "https://tic-tac-toe-alejandro-ds-projects.vercel.app/",
+        description: "El sitio Tic Tac Toe es una aplicación interactiva que permite a los usuarios jugar al clásico juego de Tres en Raya. Con una interfaz limpia y funcional, ofrece una experiencia sencilla y entretenida para disfrutar partidas rápidas en línea.",
        
         herramientas: (
             <>
