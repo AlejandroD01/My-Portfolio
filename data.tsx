@@ -1,3 +1,4 @@
+//el error speech es devido a que quite la parte de referencias de la pagina de inicio, heyyyyyyyyyyyy <---
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
 import { FaReact } from 'react-icons/fa';
@@ -448,6 +449,43 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/AlejandroD01/tic-tac-toe.git",
         urlDemo: "https://tic-tac-toe-alejandro-ds-projects.vercel.app/",
         description: "El sitio Tic Tac Toe es una aplicación interactiva que permite a los usuarios jugar al clásico juego de Tres en Raya. Con una interfaz limpia y funcional, ofrece una experiencia sencilla y entretenida para disfrutar partidas rápidas en línea.",
+
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tecnologías:</strong>
+                </span>
+                <span className="grid grid-cols-2 gap-2 mt-2">
+                    <span className="flex items-center gap-1 text-sm">
+                        <FaReact color="#61DAFB" className="w-5 h-5 m-auto" /> React.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiNextdotjs color="#000000" className="w-5 h-5 m-auto" /> Next.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTypescript color="#3178C6" className="w-5 h-5 m-auto" /> TypeScript
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTailwindcss color="#06B6D4" className="w-5 h-5 m-auto" /> Tailwind CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+
+                </span>
+            </>
+        ),
+
+    },
+    {
+        id: 14,
+        title: "San Valentine",
+        technology: "ReactJS",
+        image: "https://i.gifer.com/74C2.gif",
+        urlGithub: "https://github.com/AlejandroD01/Valentine.git",
+        urlDemo: "https://valentine-alejandro-ds-projects.vercel.app/",
+        description: "El sitio Valentine es una aplicación web diseñada para ofrecer una experiencia interactiva y personalizada en torno al Día de San Valentín.",
 
         herramientas: (
             <>
