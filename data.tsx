@@ -371,7 +371,7 @@ export const dataPortfolio = [
         image: "/tradingview.webp",
         urlGithub: "https://github.com/AlejandroD01/tradingview-dashboard.git",
         urlDemo: "https://tradingview-dashboard-alejandro-ds-projects.vercel.app/",
-        description: "TradingView es una plataforma popular para análisis técnico y seguimiento de mercados financieros.",
+        description: "Es una plataforma para análisis técnico y seguimiento de mercados financieros con TradingView.",
 
         herramientas: (
             <>
