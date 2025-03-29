@@ -517,7 +517,7 @@ export const dataPortfolio = [
     },
     {
         id: 11,
-        title: "Financial Dashboard TradingView",
+        title: "Financial Dashboard",
         technology: "ReactJS",
         image: "/tradingview.webp",
         urlGithub: "https://github.com/AlejandroD01/tradingview-dashboard.git",
