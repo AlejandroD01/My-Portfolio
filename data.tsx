@@ -515,6 +515,43 @@ export const dataPortfolio = [
         ),
 
     },
+    {
+        id: 15,
+        title: "Financial Dashboard TradingView",
+        technology: "ReactJS",
+        image: "/tradingview.webp",
+        urlGithub: "https://github.com/AlejandroD01/tradingview-dashboard.git",
+        urlDemo: "https://tradingview-dashboard-alejandro-ds-projects.vercel.app/",
+        description: "TradingView es una plataforma popular para análisis técnico y seguimiento de mercados financieros.",
+
+        herramientas: (
+            <>
+                <br />
+                <span>
+                    <strong>Tecnologías:</strong>
+                </span>
+                <span className="grid grid-cols-2 gap-2 mt-2">
+                    <span className="flex items-center gap-1 text-sm">
+                        <FaReact color="#61DAFB" className="w-5 h-5 m-auto" /> React.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiNextdotjs color="#000000" className="w-5 h-5 m-auto" /> Next.js
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTypescript color="#3178C6" className="w-5 h-5 m-auto" /> TypeScript
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiTailwindcss color="#06B6D4" className="w-5 h-5 m-auto" /> Tailwind CSS
+                    </span>
+                    <span className="flex items-center gap-1 text-sm">
+                        <SiVercel color="#000000" className="w-5 h-5 m-auto" /> Vercel
+                    </span>
+
+                </span>
+            </>
+        ),
+
+    },
 
 ];
 
