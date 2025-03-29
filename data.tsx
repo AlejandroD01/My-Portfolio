@@ -365,7 +365,7 @@ export const dataPortfolio = [
 
     },
     {
-        id: 11,
+        id: 15,
         title: "QR Code Generator",
         technology: "ReactJS",
         image: "/qr-generator.webp",
@@ -516,7 +516,7 @@ export const dataPortfolio = [
 
     },
     {
-        id: 15,
+        id: 11,
         title: "Financial Dashboard TradingView",
         technology: "ReactJS",
         image: "/tradingview.webp",
@@ -552,7 +552,7 @@ export const dataPortfolio = [
         ),
 
     },
-
+//viene la 16 ....................................................
 ];
 
 export const dataTestimonials = [
