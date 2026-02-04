@@ -1,7 +1,7 @@
 //el error speech es devido a que quite la parte de referencias de la pagina de inicio, heyyyyyyyyyyyy <---
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { PiTelegramLogoThin, PiGithubLogoLight, PiWhatsappLogoLight, PiPaperPlane } from "react-icons/pi";
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaRobot } from 'react-icons/fa';
 import { SiNextdotjs, SiHtml5, SiCss3, SiTypescript, SiTailwindcss, SiVercel, SiGooglecloud, SiRadixui } from 'react-icons/si';
 
 export const socialNetworks = [
@@ -49,8 +49,8 @@ export const itemsNavbar = [
     },
     {
         id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        title: "Robot",
+        icon: <FaRobot size={25} color="#fff" strokeWidth={1} />,
         link: "/services",
     },
     {
