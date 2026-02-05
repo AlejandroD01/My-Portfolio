@@ -107,12 +107,62 @@ export default function Chat() {
         </button>
       </div>
 
+    
       {/* MESSAGES */}
       <div
         ref={scrollRef}
         className="flex-1 overflow-y-auto space-y-4 py-4 pr-3"
       >
-        {/* ... mensajes */}
+        {messages.length === 0 && !loading && (
+          <div className="flex flex-col items-center text-gray-300 mt-10">
+            <svg
+              className="w-14 h-14 text-[#00BFFF]"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8 4.03-8 9-8 9 3.582 9 8z"
+              />
+            </svg>
+            <p className="text-sm mt-3">
+              Escribe un mensaje para comenzar a conocer sobre Alejandro D.
+            </p>
+          </div>
+        )}
+
+        {messages.map((m) => (
+          <div
+            key={m.id}
+            className={`flex w-full ${m.role === "user" ? "justify-end" : "justify-start"}`}
+          >
+            <div
+              className={`
+                w-full px-4 py-3 rounded-2xl shadow-sm text-base
+                ${
+                  m.role === "user"
+                    ? "text-white rounded-br-none"
+                    : "bg-white/10 text-gray-100 rounded-bl-none"
+                }
+              `}
+              style={m.role === "user" ? { backgroundColor: "rgba(0, 191, 255, 0.6)" } : {}}
+            >
+              {m.text}
+            </div>
+          </div>
+        ))}
+
+        {loading && (
+          <div className="flex justify-start">
+            <div className="px-4 py-3 rounded-2xl bg-white/10 text-gray-200 flex items-center gap-3">
+              <div className="w-4 h-4 border-2 border-gray-300 border-t-transparent rounded-full animate-spin"></div>
+              <span className="text-sm">Escribiendo...</span>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* INPUT */}
