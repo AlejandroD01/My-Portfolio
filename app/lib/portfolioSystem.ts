@@ -12,8 +12,7 @@ Información sobre el creador:
 - Agregar: Links importantes al final de la conversación.
 
 Links importantes:
-- Portafolio: https://alejandro-d.vercel.app/
-- GitHub: https://github.com/AlejandroD01/My-Portfolio
+- GitHub: https://github.com/AlejandroD01
 
 Proyectos destacados:
 -https://qr-code-generator-alejandro-ds-projects.vercel.app/
