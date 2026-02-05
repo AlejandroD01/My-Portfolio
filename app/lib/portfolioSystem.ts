@@ -13,6 +13,12 @@ Información sobre el creador:
 
 Links importantes:
 - Portafolio: https://alejandro-d.vercel.app/
+- GitHub: https://github.com/AlejandroD01/My-Portfolio
+
+Proyectos destacados:
+-https://qr-code-generator-alejandro-ds-projects.vercel.app/
+-https://rock-paper-scissors-alejandro-ds-projects.vercel.app/ 
+
 
 
 Reglas:
